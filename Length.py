@@ -1,7 +1,5 @@
 from fasta import sequence
 
-if __name__ == '__main__':
-
  def length(str):
     counter = 0
     while str[counter:]:
@@ -9,6 +7,7 @@ if __name__ == '__main__':
     print(counter)
     return
 
+if __name__ == '__main__':
 length(sequence)
 
 
